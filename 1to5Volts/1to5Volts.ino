@@ -14,14 +14,14 @@ void setup(void) {
 }
 
 void loop(void) {      
-  dac.setVoltage((0.1*4095)/5, false);        //Set voltage to 1V
+  dac.setVoltage((1*4095)/5, false);        //Set voltage to 1V
   delay(2000);
-  dac.setVoltage((0.2*4095)/5, false);        //Set voltage to 2V
+  dac.setVoltage((2*4095)/5, false);        //Set voltage to 2V
   delay(2000);
-  dac.setVoltage((0.3*4095)/5, false);        //Set voltage to 3V
+  dac.setVoltage((3*4095)/5, false);        //Set voltage to 3V
   delay(2000);
-  dac.setVoltage((0.4*4095)/5, false);        //Set voltage to 4V
+  dac.setVoltage((4*4095)/5, false);        //Set voltage to 4V
   delay(2000);
- dac.setVoltage((0.5*4095)/5, false);            //Set voltage to 5V or (Vcc)
+ dac.setVoltage((5*4095)/5, false);            //Set voltage to 5V or (Vcc)
   delay(2000); 
 }
